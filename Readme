@@ -1,0 +1,22 @@
+Plant Disease Classification using Deep Learning
+This project builds a deep learning model that can automatically classify plant leaf diseases using images from the PlantVillage dataset. The goal is to help farmers, researchers, and agricultural systems detect plant diseases early and accurately using computer vision.
+
+The dataset contains 129,000+ images of plant leaves across 21 disease categories, including both healthy and infected samples. Each image is processed, labeled, and fed into a neural network trained on Apple’s MPS GPU backend for fast performance on macOS.
+
+The project includes:
+
+Loading PlantVillage dataset metadata from Hugging Face
+
+Extracting disease labels from folder names
+
+Preprocessing images (resize, tensor conversion)
+
+Building a custom PyTorch collate_fn
+
+Training a neural network on GPU (MPS)
+
+Logging training progress
+
+Preparing the project for GitHub version control
+
+This repository serves as a foundation for building more advanced plant disease detection systems using modern machine learning techniques.
